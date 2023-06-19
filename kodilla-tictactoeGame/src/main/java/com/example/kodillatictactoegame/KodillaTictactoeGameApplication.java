@@ -12,7 +12,7 @@ public class KodillaTictactoeGameApplication {
 
     public static void main(String[] args) {
 //        SpringApplication.run(KodillaTictactoeGameApplication.class, args);
-        //Initializing the game and players.
+        //Initializing the game and players
         Board board = new Board();
         TictactoeLogic logic = new TictactoeLogic();
         char player1Type = 'X';
